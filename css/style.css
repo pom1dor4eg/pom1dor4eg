@@ -1,0 +1,168 @@
+.wrap{
+	width: 100%;
+}
+.akad{
+	padding: 40px;
+	font-size: 10px;
+}
+.agensy-wrap{
+	margin: auto;
+	margin-top: 100px;
+	width: 400px; height: 100px;
+	text-align: center;
+	font-size: 12px;
+}
+.were{
+	margin: auto;
+	padding: 5px;
+	width: 70px;
+	height: 15px;
+	font-size: 15px;
+	background-color: #7BEEC7;
+	color: #60606E;
+}
+.agensy{
+	box-sizing: border-box;
+	border: solid 6px #60606E;
+	width: 100%;
+	height: 80%;
+	color: #60606E;
+	line-height: 70px;
+	font-size: 40px;
+}
+.history-wrap{
+	margin: auto;
+	margin-top: 70px;
+	height: 500px;
+	width: 90%;
+}
+.history-wrap img{
+	display: block;
+	float: left;
+}
+.history{
+	width: 500px;
+	float: right;
+	color: #60606E;
+	font-size: 30px;
+}
+.history p{
+	font-size: 15px;
+}
+.more{
+	width: 150px;
+	height: 45px;
+	color: white;
+	background-color: #7BEEC7;
+	font-size: 15px;
+	text-align: center;
+	line-height: 45px;
+	float: right;
+}
+.why-wrap{
+	width: 90%;
+	height: 540px;
+	margin: auto;
+	text-align: center;
+	color: #60606E;
+	font-size: 25px;
+}
+#p1{font-size: 12px;}
+.why-content-wrap{
+	width: 100%;
+	height: 500px;
+	background-color: white;
+}
+.why-content-wrap img{
+	display: block;
+	float: right;
+}
+.arguments{
+	float: left;
+	width: 600px;
+	height: 100%;
+}
+.argument-item{
+	float: left;
+	width: 45%;
+	height: 200px;
+	text-align: left;
+	color: #60606E;
+	font-size: 20px;
+}
+.argument-item img{
+	float: left;
+}
+.argument-item p{
+	font-size: 15px;
+	color: grey;
+}
+.portfolio-wrap{
+	width: 90%;
+	height: 980px;
+	margin: auto;
+	margin-top: 100px;
+	text-align: center;
+	font-size: 25px;
+	color: #60606E;
+}
+.portfolio-wrap p{
+	font-size: 15px;
+}
+.category{
+	float: left;
+	width: 300px;
+	text-align: left;
+}
+.all{
+	width: 60px;
+	height: 20px;
+	background-color: #7BEEC7;
+	font-size: 10px;
+	color: white;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.category p{
+	margin-left: 20px;
+}
+.photos{
+	float: right;
+	width: 850px;
+	height: 900px;
+}
+.photos img{
+	display: block;
+	padding: 10px;
+	float: left;
+}
+#img1{position: relative; bottom: 220px}
+#img2{position: relative; bottom: 355px}
+#img3{position: relative; bottom: 220px}
+#img4{position: relative; bottom: 240px}
+.yes{
+	padding-top: 60px;
+	width: 100%;
+	height: 400px;
+	background-color: #7BEEC7;
+}
+.green{
+	margin-left: 6%;
+	width: 430px;
+	font-size: 25px;
+	color: white;
+}
+.green p{
+	margin-top: 10px;
+}
+.get{
+	width: 140px;
+	height: 35px;
+	margin-top: 25px;
+	text-align: center;
+	background-color: white;
+	font-size: 15px;
+	color: #7BEEC7;
+	line-height: 35px;
+}
