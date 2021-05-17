@@ -1,0 +1,31 @@
+.menu{
+	width: 100%;
+	height: 100px;
+	margin-top: 30px; 
+}
+.menu-item{
+	width: 120px;
+	height: 30px;
+	margin: 20px;
+	margin-left: 1%;
+	margin-right: 1%;
+	color: #60606E;
+	text-decoration: none;
+	float: left;
+}
+.menu-item a{
+	text-decoration: none;
+	color: #60606E;
+	padding: 20px;
+}
+.by{
+	.width: 300px;
+	height: 60px;
+	margin: 20px;
+	float: right;
+	color: #60606E;
+}
+.by img{
+	display: block;
+	float: right;
+}
