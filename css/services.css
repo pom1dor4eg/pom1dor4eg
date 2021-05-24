@@ -1,0 +1,151 @@
+.wrap{
+	width: 90%;
+	box-sizing: content-box;
+	margin: auto;
+	margin-top: 30%; 
+}
+.title{
+	width: 100%;
+	box-sizing: content-box;
+}
+.akad{
+	padding: 40px;
+	font-size: 10px;
+}
+.services{
+	width: 170px;
+	height: 30px;
+	margin: auto;
+	margin-top: 6%;
+	font-size: 30px; 
+	text-align: center;
+}
+.services p{
+	font-size: 15px;
+}
+.title img{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.what{
+	width: 100%;
+	display: inline-table;
+	margin: auto;
+	font-size: 30px;
+	text-align: center;
+	color: #60606E;
+}
+.what p{
+	font-size: 15px;
+}
+.what1{
+	width: 40%;
+	display: inline-table;
+	float: left;
+	text-align: left;
+	font-size: 15px;
+}
+.uls{
+	margin-top: 20px;
+}
+.what1 ul{
+	display: block;
+}
+.ul-item{
+	display: block
+}
+.ul-item img{
+	position: relative;
+	top: 7px;
+}
+.one{
+	float: left;
+}
+.two{
+	float: right;
+}
+.what2{
+	width: 40%;
+	display: inline-table;
+	float: right;
+}
+.why{
+	width: 100%;
+	margin-top: 100px;
+	column-count: 4;
+}
+.why-item{
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+	color: #60606E;
+}
+.why-item p{
+	font-size: 15px;
+}
+.why-item img{
+	display: block;
+	margin: auto;
+}
+.plans{
+	width: 100%;
+	margin-top: 150px; 
+	font-size: 30px;
+	text-align: center;
+	color: #60606E;
+	display: inline-table;
+}
+.plans p{
+	font-size: 15px;
+}
+.plans-item{
+	width: 330px;
+	height: 400px;
+	border: solid 1px;
+	box-shadow: 2px 2px 20px 2px;
+	float: left;
+	font-size: 30px;
+	color: #60606E;
+	padding: 20px;
+	text-align: left;
+}
+.plans-item li{
+	display: block;
+	font-size: 15px;
+}
+.plans-item img{
+	position: relative;
+	top: 7px;
+}
+.price{
+	width: 200px;
+	height: 10px;
+	padding: 10px;
+	color: white;
+	font-size: 20px;
+	background-color: #7BEEC7;
+	text-align: center;
+	line-height: 10px;
+}
+.items{
+	width: 100%;
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+}
+.start{
+	width: 150px;
+	height: 20px;
+	padding: 10px;
+	background-color: #7BEEC7;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+}
+.start:hover{
+	cursor: pointer;
+}
+.yes{
+	margin-top: 50px;
+}

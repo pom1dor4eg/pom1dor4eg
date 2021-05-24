@@ -1,0 +1,173 @@
+.wrap{
+	width: 100%;
+	box-sizing: content-box;
+}
+.title{
+	width: 100%;
+	box-sizing: content-box;
+}
+.akad{
+	padding: 40px;
+	font-size: 10px;
+}
+.about{
+	width: 170px;
+	height: 30px;
+	margin: auto;
+	margin-top: 6%;
+	font-size: 30px; 
+	text-align: center;
+}
+.about p{
+	font-size: 15px;
+}
+.title img{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.double{
+	width: 90%;
+	box-sizing: content-box;
+	margin: auto;
+	margin-top: 30%;
+	font-size: 30px;
+	color: #60606E;
+}
+.double p{
+	font-size: 13px;
+	color: #60606E;
+}
+.double1{
+	float: left;
+	width: 40%;
+	box-sizing: content-box;
+}
+.double2{
+	float: right;
+	width: 40%;
+	box-sizing: content-box;
+}
+#p1{
+	font-size: 13px;
+	color: #60606E;
+}
+.benefits{
+	width: 90%;
+	box-sizing: content-box;
+	font-size: 30px;
+	margin: auto;
+	margin-top: 700px;
+	text-align: center;
+	color: #60606E;
+}
+.benefits p{
+	font-size: 10px;
+}
+.items{
+	column-count: 3;
+	margin-top: 100px;
+}
+.benefits-item{
+	font-size: 20px;
+	width: 360px;
+	height: 200px;
+	text-align: left;
+}
+.benefits-item img{
+	background-color: #7BEEC7;
+	padding: 5px;
+}
+.benefits-item p{
+	font-size: 15px;
+	color: #60606E;
+}
+.dream-team{
+	width: 90%;
+	box-sizing: content-box;
+	font-size: 30px;
+	text-align: center;
+	color: #60606E;
+	margin: auto;
+}
+.dream-team p{
+	font-size: 15px;
+}
+.photos{
+	width: 100%;
+	display: inline-table;
+}
+.photos img{
+	display: block;
+	float: left;
+	padding: 15px;
+}
+.more{
+	width: 75%;
+	padding: 30px;
+	font-size: 15px;
+	text-align: left;
+	background-color: #efeff0;
+	margin-left: 6%;
+}
+.readmore{
+	width: 100px;
+	height: 15px;
+	font-size: 10px;
+	color: white;
+	background-color: #7BEEC7;
+	text-align: center;
+	padding: 15px;
+	line-height: 10px;
+	float: right;
+}
+.readmore:hover{
+	cursor: pointer;
+}
+.end{
+	width: 90%;
+	box-sizing: content-box;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 400px;
+}
+.first{
+	width: 45%;
+	height: 200px;
+	float: left;
+}
+.first img{
+	display: block;
+	margin: auto;
+}
+.first p{
+	text-align: center;
+	font-size: 15px;
+}
+.john{
+	width: 100px;
+	height: 10px;
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background-color: #7BEEC7;
+	margin: auto;
+	line-height: 10px;
+	text-align: center;
+}
+.john:hover{
+	cursor: pointer;
+}
+.second{
+	width: 45%;
+	height: 200px;
+	float: right;
+}
+.second img{
+	width: 150px;
+	height: 95px;
+	display: block;
+	float: left;
+	padding: 5px;
+}
