@@ -1,0 +1,87 @@
+.title{
+	width: 100%;
+	box-sizing: content-box;
+}
+.akad{
+	padding: 40px;
+	font-size: 10px;
+}
+.contact{
+	width: 200px;
+	height: 30px;
+	margin: auto;
+	margin-top: 6%;
+	font-size: 30px; 
+	text-align: center;
+}
+.contact p{
+	font-size: 15px;
+}
+.title img{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.wrap{
+	width: 90%;
+	box-sizing: content-box;
+	margin: auto;
+	margin-top: 30%; 
+}
+.contact-reg{
+	width: 50%;
+	display: inline-table;
+	float: left;
+}
+.contact-reg input{
+	border: 0;
+}
+#input1{
+	width: 40%;
+	height: 30px;
+	padding: 10px;
+	float: left;
+	background-color: #fefcf9;
+	color: #CCC;
+	margin: 5px;
+}
+#input2{
+	width: 90%;
+	height: 30px;
+	padding: 10px;
+	background-color: #fefcf9;
+	color: #CCC;
+	margin: 5px;
+}
+#input3{
+	width: 90%;
+	padding: 10px;
+	background-color: #fefcf9;
+	color: #CCC;
+	margin: 5px;
+}
+.send1{
+	width: 100px;
+	height: 20px;
+	padding: 10px;
+	background-color: #7BEEC7;
+	text-align: center;
+	line-height: 20px;
+	color: white;
+	font-size: 15px;
+	margin-top: 20px;
+}
+.send1:hover{
+	cursor: pointer;
+}
+.info{
+	width: 100%;
+	display: inline-table;
+	color: #60606E;
+	font-size: 20px;
+	margin-top: 100px;
+}
+.info p{
+	font-size: 15px;
+}
