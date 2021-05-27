@@ -1,14 +1,18 @@
 .wrap{
-	width: 100%;
+	width: 90%;
+	box-sizing: content-box;
+	margin: auto;
 }
 .akad{
 	padding: 40px;
 	font-size: 10px;
+	width: 30px;
+	height: 10px;
 }
 .agensy-wrap{
-	margin: auto;
 	margin-top: 100px;
-	width: 400px; height: 100px;
+	width: 100%;
+	display: inline-table;
 	text-align: center;
 	font-size: 12px;
 }
@@ -24,17 +28,22 @@
 .agensy{
 	box-sizing: border-box;
 	border: solid 6px #60606E;
-	width: 100%;
-	height: 80%;
+	width: 400px;
+	height: 80px;
 	color: #60606E;
 	line-height: 70px;
 	font-size: 40px;
+	margin: auto;
+}
+.agensy-wrap p{
+	margin: auto;
+	width: 400px;
+	margin-top: 20px;
 }
 .history-wrap{
-	margin: auto;
 	margin-top: 70px;
-	height: 500px;
-	width: 90%;
+	width: 100%;
+	display: inline-table;
 }
 .history-wrap img{
 	display: block;
@@ -60,31 +69,26 @@
 	float: right;
 }
 .why-wrap{
-	width: 90%;
-	height: 540px;
-	margin: auto;
+	width: 100%;
+	display: inline-table;
 	text-align: center;
 	color: #60606E;
 	font-size: 25px;
+	margin-top: 40px;
 }
-#p1{font-size: 12px;}
-.why-content-wrap{
-	width: 100%;
-	height: 500px;
-	background-color: white;
-}
-.why-content-wrap img{
+.why-wrap img{
 	display: block;
 	float: right;
 }
+#p1{font-size: 12px;}
 .arguments{
 	float: left;
 	width: 600px;
-	height: 100%;
+	height: 400px;
 }
 .argument-item{
 	float: left;
-	width: 45%;
+	width: 300px;
 	height: 200px;
 	text-align: left;
 	color: #60606E;
@@ -98,9 +102,8 @@
 	color: grey;
 }
 .portfolio-wrap{
-	width: 90%;
-	height: 980px;
-	margin: auto;
+	width: 100%;
+	display: inline-table;
 	margin-top: 100px;
 	text-align: center;
 	font-size: 25px;
@@ -114,6 +117,9 @@
 	width: 300px;
 	text-align: left;
 }
+.category p{
+	margin-left: 20px;
+}
 .all{
 	width: 60px;
 	height: 20px;
@@ -124,55 +130,26 @@
 	margin-top: 30px;
 	margin-bottom: 20px;
 }
-.category p{
-	margin-left: 20px;
-}
 .photos{
 	float: right;
-	width: 850px;
+	width: 900px;
 	height: 900px;
 }
-.photos img{
-	display: block;
-	padding: 10px;
-	float: left;
-}
-#img1{position: relative}
-#img2{position: relative}
-#img3{position: relative}
-#img4{position: relative; bottom: 220px}
-#img5{position: relative; bottom: 220px}
-#img4{position: relative}
-#img7{position: relative; bottom: 355px}
-#img8{position: relative; bottom: 220px}
-#img9{position: relative; bottom: 240px}
-}
-@media (max-width: 1310px){
-	.photos{width: 100%}
-	#img4{bottom: 0px}
-	#img5{bottom: 0px}
-	#img6{bottom: 500px}
-	#img7{bottom: 500px}
-	#img8{bottom: 290px}
-	#img9{float: left; right: 850px; bottom: 330px}
-	.portfolio-wrap{height: 1100px;}
-	.green{
-		position: relative;
-		bottom: 80px;
-	}
-	.stay{
-		position: relative;
-		bottom: 80px;
+@media (max-width: 1364px)
+{
+	.photos{
+		float: left;
 	}
 }
-@media(max-width: 1285px){
-#img3{bottom: 0px}
-#img4{bottom: 220px}
-#img5{bottom: 220px}
-#img6{bottom: 0px}
-#img7{bottom: 110px; right: 570px}
-#img8{bottom: 390px; left: 283px}
-#img9{bottom: 410px; left: 283px}
-.photos{height: 1100px}
-.yes{margin-top: 200px}
+@media (max-width: 1205px)
+{
+	.why-wrap img{
+		float: left;
+	}
+}
+@media (max-width: 1095px)
+{
+	.history{
+		float: left;
+	}
 }

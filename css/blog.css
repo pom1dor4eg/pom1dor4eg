@@ -7,7 +7,7 @@
 	font-size: 10px;
 }
 .blog{
-	width: 170px;
+	width: 200px;
 	height: 30px;
 	margin: auto;
 	margin-top: 6%;
@@ -184,4 +184,27 @@
 	background-color: #E5E5E5;
 	font-size: 15px;
 	margin: 5px;
+}
+@media(max-width: 1418px)
+{
+	.saidbar{
+		width: 100%;
+		float: left;
+		margin-left: 0;
+	}
+	.posts{
+		margin: 10px;
+	}
+	.categories{
+		margin: 10px;
+	}
+	.tags{
+		margin: 10px;
+	}
+}
+@media(max-width: 700px)
+{
+	.blog{
+		margin-top: 0;
+	}
 }

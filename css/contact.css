@@ -56,6 +56,7 @@
 }
 #input3{
 	width: 90%;
+	height: 30px;
 	padding: 10px;
 	background-color: #fefcf9;
 	color: #CCC;
@@ -84,4 +85,10 @@
 }
 .info p{
 	font-size: 15px;
+}
+@media (max-width:  700px)
+{
+	.contact{
+		margin-top: 0;
+	}
 }
